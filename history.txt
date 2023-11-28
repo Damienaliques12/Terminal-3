@@ -1,0 +1,50 @@
+   25  sort
+   26  sort languages.txt 
+   27  grep Java
+   28  grep
+   29  grep Java
+   30  wc < languages.txt
+   31  curl https://www.data.gouv.fr/s/resources/liste-de-prenoms/20141127-154433/Prenoms.csv -o Prenoms.csv
+   32  head Prenoms.csv 
+   33  grep "f;french" < Prenoms.csv | wc -l
+   34  grep swedish Prenoms.csv > Swedish.csv
+   35  grep danish Prenoms.csv > Danish.csv
+   36  grep norwegian Prenoms.csv > Norwegian.csv
+   37  cat Swedish.csv Danish.csv Norwegian.csv 
+   38  cat Swedish.csv Danish.csv Norwegian.csv | sort 
+   39  cat Swedish.csv Danish.csv Norwegian.csv | sort -u
+   40  sort man
+   41  man sort
+   42  cat Swedish.csv Danish.csv Norwegian.csv | sort -u > Scandinavian.csv
+   43  ls
+   44  clear
+   45  curl https://gist.githubusercontent.com/bhubr/bc3a21a0202109beeb31c4a677e0461b/raw/d8805eb82e8aabffab3b0163596c734f376617d0/wilders.csv
+   46  curl https://gist.githubusercontent.com/bhubr/bc3a21a0202109beeb31c4a677e0461b/raw/d8805eb82e8aabffab3b0163596c734f376617d0/wilders.csv -o Wilders.csv
+   47  head Wilders.csv 
+   48  grep "France,2019,PHP" | wp -l
+   49  grep "France;2019;PHP" | wp -l
+   50  grep "France,2019,PHP" < Wilders.csv | wc -l
+   51  grep "France,2019,PHP" < Wilders.csv | wc -l > php_france_2019.csv
+   52  cat php_france_2019.csv 
+   53  grep "Biarritz;Javascript" Wilders.csv 
+   54  grep "Biarritz;Javascript" Wilders.csv > javascript_biarritz.csv
+   55  cat javascript_biarritz.csv 
+   56  grep Biarritz Wilders.csv | grep javascript Wilders.csv > javascript_biarritz.csv 
+   57  cat javascript_biarritz.csv 
+   58  grep javascript Wilders.csv > javascript.csv
+   59  cat javascript.csv
+   60  grep "javascript" Wilders.csv > javascript.csv 
+   61  cat javascript.csv 
+   62  cat Wilders.csv 
+   63  grep JavaScript Wilders.csv > javascript.csv 
+   64  cat javascript.csv 
+   65  grep Biarritz javascript.csv > javascript_biarritz.csv 
+   66  cat javascript_biarritz.csv 
+   67  grep Toulouse javascript.csv > Javascript_Toulouse.csv
+   68  cat Javascript_Toulouse.csv 
+   69  cat Javascript_Toulouse.csv javascript_biarritz.csv > javascript_biarritz_toulouse.csv
+   70  cat javascript_biarritz_toulouse.csv 
+   71  tail
+   72  history | tail >history.txt
+   73  cat history.txt 
+   74  history | tail -50 >history.txt 
